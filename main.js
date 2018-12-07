@@ -4,7 +4,7 @@ const app = express();
 const router = express.Router();
 
 // var fs = require('fs');
-var template = require('./lib/template.js');
+// var template = require('./lib/template.js');
 var path = require('path');
 var sanitizeHtml = require('sanitize-html');
 var qs = require('querystring');
